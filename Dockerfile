@@ -23,4 +23,4 @@ RUN cd /usr/build && \
 # Entrypoint
 WORKDIR /usr/app
 EXPOSE 3000
-CMD ["serve", "-s"]
+CMD ["serve", "-p", "3000","-s"]
